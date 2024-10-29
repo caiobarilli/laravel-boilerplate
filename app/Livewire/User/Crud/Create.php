@@ -88,8 +88,11 @@ class Create extends Component
     private function resetInputFields()
     {
         $this->name = '';
+
         $this->email = '';
+
         $this->password = '';
+
         $this->password_confirmation = '';
     }
 

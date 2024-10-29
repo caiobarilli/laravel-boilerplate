@@ -79,7 +79,16 @@ class Edit extends Component
         $this->dispatch('$refresh')->self();
     }
 
-    private function resetInputFields() {}
+    private function resetInputFields()
+    {
+        $this->name = '';
+
+        $this->email = '';
+
+        $this->password = '';
+
+        $this->password_confirmation = '';
+    }
 
     public function render()
     {
