@@ -2,6 +2,11 @@
 
 Boilerplate com Laravel com Livewire, Jetstream, Maryui & Powergrid
 
+# Utilize o docker para rodar o projeto
+
+Para rodar o projeto com docker, siga as instruções do repositório [DockerLaravel](
+https://github.com/caiobarilli/docker-laravel)
+
 # Instalação
 
 Instale as dependências do composer e do npm
